@@ -16,6 +16,16 @@
 
 ### ' Prishës ' is a tool for searching the URLs of websites and displaying files and folders in them.
 
+
+### Installation Figlet On Linux
+
+```bash
+$ sudo apt install figlet toilet    [On Debian/Ubuntu]
+$ sudo yum install figlet toilet    [On CentOS/RHEL]
+$ sudo dnf install figlet toilet    [On Fedora 22+]
+```
+
+
 ### Installation On Linux
 
 ```bash
