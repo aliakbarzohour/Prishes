@@ -5,6 +5,9 @@ import subprocess
 from colorama import Fore,init
 # colorama 
 init()
+# step 1 ( insert figlet )
+banner = subprocess.getoutput("figlet -f slant 'Prishes'")
+print(banner)
 # step 2 ( define search address`s)
 search = ['robots.txt',
 'search/',
