@@ -17,6 +17,11 @@
 ### ' Prishës ' is a tool for searching the URLs of websites and displaying files and folders in them.
 
 
+### ScreenShot
+
+![Screenshot_2021-10-01_20-01-56](https://user-images.githubusercontent.com/71524940/135656410-6427f171-1159-404a-86ab-8fdfc2fcfcf1.png)
+
+
 ### Installation Figlet On Linux
 
 ```bash
