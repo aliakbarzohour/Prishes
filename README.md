@@ -16,4 +16,23 @@
 
 ### ' Prishës ' is a tool for searching the URLs of websites and displaying files and folders in them.
 
+### Installation On Linux
+
+```bash
+$ git clone https://github.com/aliakbarzohour/Prishes.git
+$ cd Prishes/
+$ python main.py
+``` 
+
+
+### Installation On Windows
+
+```bash
+$ Download  https://github.com/aliakbarzohour/Prishes
+$ cd Prishes
+$ python main.py
+```
+
+
+
 #### This project is under development ...
