@@ -32,11 +32,11 @@ search = ['robots.txt',
 'xmlrpc.php'
 ]
 # step 3 (input for conenction to web)
-url = input(Fore.LIGHTMAGENTA_EX+" [*] "+Fore.WHITE+" Enter URL for Search : ")
+url = input(Fore.YELLOW+" [ * ] "+Fore.WHITE+" Enter URL for Search : ")
 # step 4 ( define loop for testing ... )
 for page in search:
     req = requests.get("https://"+url+"/"+page)
     if req.status_code == 200:
-	    print(Fore.GREEN+" [+]"+Fore.WHITE+" Found Page "+url+"/"+page)
+	    print(Fore.GREEN+" [ + ]"+Fore.WHITE+" Found Page "+url+"/"+page)
     else:
-	    print(Fore.RED+" [-] "+Fore.WHITE+"Not Found "+url+"/"+page)
+	    print(Fore.BLACK+" [ - ] "+Fore.WHITE+"Not Found "+url+"/"+page)
