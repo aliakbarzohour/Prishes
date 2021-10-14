@@ -6,8 +6,15 @@ from colorama import Fore,init
 # colorama 
 init()
 # step 1 ( insert figlet )
-banner = subprocess.getoutput("figlet -f slant 'Prishes'")
-print(banner)
+# banner = subprocess.getoutput("figlet -f slant 'Prishes'")
+# print(banner)
+
+print(Fore.YELLOW+"__________         .__         .__                     ")
+print(Fore.YELLOW+"\______   \_______ |__|  ______|  |__    ____    ______")
+print(Fore.GREEN+" |     ___/\_  __ \|  | /  ___/|  |  \ _/ __ \  /  ___/")
+print(Fore.RED+" |    |     |  | \/|  | \___ \ |   Y  \\  ___/  \___ \ ")
+print(Fore.RED+" |____|     |__|   |__|/____  >|___|  / \___  >/____  >")
+print(Fore.RED+"                            \/      \/      \/      \/ ")
 # step 2 ( define search address`s)
 search = ['robots.txt',
 'search/',
