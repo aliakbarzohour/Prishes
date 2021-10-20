@@ -39,4 +39,4 @@ for page in search:
     if req.status_code == 200:
 	    print(Fore.GREEN+" [ + ]"+Fore.WHITE+" Found Page "+url+"/"+page)
     else:
-	    print(Fore.BLACK+" [ - ] "+Fore.WHITE+"Not Found "+url+"/"+page)
+	    print(Fore.RED+" [ - ] "+Fore.WHITE+"Not Found "+url+"/"+page)
