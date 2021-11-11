@@ -37,6 +37,6 @@ url = input(Fore.YELLOW+" [ * ] "+Fore.WHITE+" Enter URL for Search : ")
 for page in search:
     req = requests.get("https://"+url+"/"+page)
     if req.status_code == 200:
-	    print(Fore.GREEN+" [ + ]"+Fore.WHITE+" Found Page "+url+"/"+page)
+	    print(Fore.GREEN+" [ ",req.status_code," ] "+Fore.WHITE+url+"/"+page)
     else:
-	    print(Fore.RED+" [ - ] "+Fore.WHITE+"Not Found "+url+"/"+page)
+	    print(Fore.RED+" [ ",req.status_code," ] "+Fore.WHITE+url+"/"+page)
